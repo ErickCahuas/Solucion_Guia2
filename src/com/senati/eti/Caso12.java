@@ -41,6 +41,6 @@ public class Caso12 {
 		System.out.println("Sueldo..........: " + nivel);
 		System.out.println("sueldo..........: " + sueldo);
 		System.out.println("Incremento......: " + (incremento * 100) + "%");
-		System.out.println("Nuevo Sueldo....: " + (sueldo * incremento + sueldo));
+		System.out.println("Nuevo Sueldo....: " + (sueldo + (incremento * sueldo)));
 	}
 }

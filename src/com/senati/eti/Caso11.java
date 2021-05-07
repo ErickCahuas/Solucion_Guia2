@@ -23,11 +23,26 @@ public class Caso11 {
 		    case 3:
 		    	dia = "Martes";
 		    	break;
+		    case 4:
+		    	dia = "Miercoles";
+		    	break;
+		    case 5:
+		    	dia = "Jueves";
+		    	break;
+		    case 6:
+		    	dia = "Viernes";
+		    	break;
+		    case 7:
+		    	dia = "Sábado";
+		    	break;
 		    default:
 		    	dia = "Desconocido";
 		    	
-		    
 		}
+		
+		System.out.println("\nRESULTADOS");
+		System.out.println("------------");
+		System.out.println("Días de la semana......: " + dia);
 
 	}
 
